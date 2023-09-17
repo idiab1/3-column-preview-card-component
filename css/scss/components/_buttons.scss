@@ -1,0 +1,43 @@
+// Box Buttons
+.box {
+    button {
+        all: unset;
+        cursor: pointer;
+        padding: 12px 25px;
+        border-radius: 25px;
+        font-size: 15px;
+        border: 1px solid $very-light-gray;
+        background-color: $very-light-gray;
+        transition: all .26s ease-in;
+    }
+    &:first-child {
+        button {
+            color: $bright-orange;
+            &:hover {
+                background-color: transparent;
+                color: $very-light-gray;
+            }
+        }
+    }
+
+    &:nth-child(2) {
+        button {
+            color: $dark-cyan;
+            &:hover {
+                background-color: transparent;
+                color: $very-light-gray;
+            }
+        }
+    }
+
+    &:last-child {
+        button {
+            color: $very-dark-cyan;
+            &:hover {
+                background-color: transparent;
+                color: $very-light-gray;
+            }
+        }
+    }
+}
+// End of box buttons
