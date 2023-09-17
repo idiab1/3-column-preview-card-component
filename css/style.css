@@ -41,9 +41,6 @@ body {
   margin: auto;
   align-items: center;
 }
-.app h1 {
-  display: none;
-}
 .app .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -58,7 +55,7 @@ body {
 .app .container .box .info {
   margin-bottom: 4rem;
 }
-.app .container .box .info h2 {
+.app .container .box .info h1 {
   color: hsl(0deg, 0%, 95%);
   text-transform: uppercase;
   line-height: 1.6;
@@ -97,7 +94,7 @@ body {
   .app .container .box .info {
     margin-bottom: 1rem;
   }
-  .app .container .box .info h2 {
+  .app .container .box .info h1 {
     font-size: 1.85rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
