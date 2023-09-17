@@ -64,3 +64,59 @@
 }
 
 // End of app
+
+@media (max-width: 767.98px) {
+    // app
+    .app {
+        width: 100%;
+        height: 100%;
+        // Container
+        .container {
+            grid-template-columns: 1fr;
+            // Box 
+            .box {
+                // Info
+                .info {
+                    margin-bottom: 1rem;
+                    h2 {
+                        font-size: 1.85rem;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                    }
+                }
+                &:first-child {
+                    border-top-left-radius: $border-radius-value;
+                    border-top-right-radius: $border-radius-value;
+                    border-bottom-left-radius: 0;
+
+                }
+                &:last-child {
+                    border-top-right-radius: 0;
+                    border-bottom-left-radius: $border-radius-value;
+                    border-bottom-right-radius: $border-radius-value;
+                }
+            }
+        }
+    }
+    // End of app
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    // app
+    .app {
+        height: 100vh;
+        width: 100%;
+        // Container
+        .container {
+            // Box 
+            .box {
+                // Info
+                .info {
+                    margin-bottom: 2.5rem;
+                }
+            }
+        }
+    }
+    // End of app
+}
